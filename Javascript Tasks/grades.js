@@ -1,23 +1,24 @@
-let marks = [67, 86, 32, 43];
-let doubleMarks = []
-for (let i = 0; i < marks.length; i++) {
+let grademarks = [67, 86, 32, 43];
+let doublegradeMarks = []
+for (let i = 0; i <  grademarks.length; i++) {
     if (marks[i] >= 0) {
-        console.log("Valid marks: ", marks[i]);
-        doubleMarks.push(marks[i] * 2)
+        console.log("Valid  grademarks: ",  grademarks[i]);
+        doubleMarks.push( grademarks[i] * 2)
     }
 
-    if (marks[i] >= 40) {
+    if ( grademarks[i] >= 40) {
         console.log("Pass");
     } else {
         console.log("Fail");
     }
 
-    if (marks[i] >= 60) {
+    if ( grademarks[i] >= 60) {
         console.log("A");
-    } else if (marks[i] <= 50) {
+    } else if ( grademarks[i] <= 50) {
         console.log("B");
     } else {
         console.log("C");
     }
 }
-console.log(doubleMarks);
+
+console.log( gradedoubleMarks);
