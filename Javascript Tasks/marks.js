@@ -1,25 +1,26 @@
-let marksResult = [90, 68, 45, 28];
-let passedStudents = [];
-for (let i = 0; i < marks.length; i++) {
-    if (marks[i] >= 0) {
-        console.log("Valid marks: ", marks[i]);
+let result = [90, 68, 45, 28];
+let passresultStudents = [];
+for (let i = 0; i <  result.length; i++) {
+    if (result[i] >= 0) {
+        console.log("Valid  result: ",  result[i]);
     }
 
-    if (marks[i] >= 35) {
+    if ( result[i] >= 35) {
         console.log("Pass");
-        passedStudents.push(marks[i]);
+        passedStudents.push( result[i]);
     } else {
         console.log("Fail");
     }
 
-    if (marks[i] >= 90) {
+    if ( result[i] >= 90) {
         console.log("Excellent");
-    } else if (marks[i] >= 70) {
+    } else if ( result[i] >= 70) {
         console.log("Good");
-    } else if (marks[i] >= 50) {
+    } else if ( result[i] >= 50) {
         console.log("Average");
     } else {
         console.log("Needs Improvement");
     }
 }
-console.log("Students passed:", passedStudents)
+console.log("PassedStudentsresult:", passresultStudents )
+
