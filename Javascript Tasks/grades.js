@@ -1,7 +1,7 @@
 let grademarks = [67, 86, 32, 43];
 let doublegradeMarks = []
 for (let i = 0; i <  grademarks.length; i++) {
-    if (marks[i] >= 0) {
+    if (grademarks[i] >= 0) {
         console.log("Valid  grademarks: ",  grademarks[i]);
         doubleMarks.push( grademarks[i] * 2)
     }
@@ -22,3 +22,4 @@ for (let i = 0; i <  grademarks.length; i++) {
 }
 
 console.log( gradedoubleMarks);
+
