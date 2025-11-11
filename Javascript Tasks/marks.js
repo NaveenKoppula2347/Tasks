@@ -7,7 +7,7 @@ for (let i = 0; i <  result.length; i++) {
 
     if ( result[i] >= 35) {
         console.log("Pass");
-        passedStudents.push( result[i]);
+        passresultStudents.push( result[i]);
     } else {
         console.log("Fail");
     }
@@ -23,4 +23,5 @@ for (let i = 0; i <  result.length; i++) {
     }
 }
 console.log("PassedStudentsresult:", passresultStudents )
+
 
